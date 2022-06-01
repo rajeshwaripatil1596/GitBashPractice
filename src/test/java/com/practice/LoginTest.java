@@ -14,6 +14,7 @@ public class LoginTest
 	@Test
 	public void loginTest()
 	{
+//comment from me
 		WebDriverManager.chromedriver().setup();
 		WebDriver driver=new ChromeDriver();
 		driver.get("http://localhost:8888/");
