@@ -25,7 +25,11 @@ public class LoginTest
 		driver.findElement(By.xpath("//input[@type=\"submit\"]")).click();
 		driver.quit();
 <<<<<<< HEAD
+<<<<<<< HEAD
 //comment from person1 for conflict
+=======
+//comment from person2 for conflict
+>>>>>>> 02469af2edb0958024ec2587bcc274422286b3bf
 =======
 //comment from person2 for conflict
 >>>>>>> 02469af2edb0958024ec2587bcc274422286b3bf
