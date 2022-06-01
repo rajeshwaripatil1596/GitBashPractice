@@ -14,6 +14,7 @@ public class LoginTest
 	@Test
 	public void loginTest()
 	{
+//comment from me
 		WebDriverManager.chromedriver().setup();
 		WebDriver driver=new ChromeDriver();
 		driver.get("http://localhost:8888/");
@@ -23,7 +24,11 @@ public class LoginTest
 		driver.findElement(By.xpath("//input[@type=\"password\"]")).sendKeys("root");
 		driver.findElement(By.xpath("//input[@type=\"submit\"]")).click();
 		driver.quit();
+<<<<<<< HEAD
 //comment from person1 for conflict
+=======
+//comment from person2 for conflict
+>>>>>>> 02469af2edb0958024ec2587bcc274422286b3bf
 		
 	}
 
